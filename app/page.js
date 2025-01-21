@@ -1,32 +1,33 @@
 import Layout from "@/components/layout/Layout"
-import "app/favicon.ico"
-import Funfact from "@/components/sections/home1/Funfact"
-import Banner from "@/components/sections/home1/Banner"
-import Service from "@/components/sections/home1/Service"
-import About from "@/components/sections/home1/About"
-import Working from "@/components/sections/home1/Working"
-import Funding from "@/components/sections/home1/Funding"
-import Pairs from "@/components/sections/home1/Pairs"
-import Chooseus from "@/components/sections/home1/Chooseus"
-import Testimonial from "@/components/sections/home1/Testimonial"
-import Featured from "@/components/sections/home1/Featured"
-import News from "@/components/sections/home1/News"
-export default function Home() {
+import "app/favicon-3.ico"
+import "public/assets/css/color3.css"
+import Banner from "@/components/sections/home3/Banner"
+import Funfact from "@/components/sections/home3/Funfact"
+import About from "@/components/sections/home3/About"
+import Pricing from "@/components/sections/home3/Pricing"
+import Cta from "@/components/sections/home3/Cta"
+import Platform from "@/components/sections/home3/Platform"
+import News from "@/components/sections/home3/News"
+import Chooseus from "@/components/sections/home3/Chooseus"
+import Working from "@/components/sections/home3/Working"
+import Testimonial from "@/components/sections/home3/Testimonial"
+import Clients from "@/components/sections/home3/Clients"
+export default function Home_3() {
 
     return (
         <div className="boxed_wrapper">
-            <Layout headerStyle={1} footerStyle={1}>
+            <Layout headerStyle={3} footerStyle={3}>
                 <Banner/>
-                <Service/>
                 <Funfact/>
                 <About/>
-                <Working/>
-                <Funding/>
-                <Pairs/>
-                <Chooseus/>
-                <Testimonial/>
-                <Featured/>
+                <Pricing/>
+                <Cta/>
+                <Platform/>
                 <News/>
+                <Chooseus/>
+                <Working/>
+                <Testimonial/>
+                <Clients/>
             </Layout>
         </div>
     )
