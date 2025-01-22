@@ -33,7 +33,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSide
                             </div>
                             <div className="menu-right-content">
                                 <div className="login-box"> 
-                                    <Link href="/index-3"><i className="flaticon-user"></i>Users Login</Link>
+                                    <Link href="/index-3"><i className="flaticon-user"></i>Login</Link>
                                 </div>
                                 <div className="support-box">
                                     <figure className="image-box"><img src="assets/images/resource/support-1.png" alt=""/></figure>
