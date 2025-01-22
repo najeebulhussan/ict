@@ -82,7 +82,8 @@ export default function Banner() {
                             <h2>Seamless Trading <br />with MT4 & MT5 Platform.</h2>
                             <p>Transforming Trades, Elevating Profits.</p>
                             <div className="btn-box">
-                                <Link href="/index-3" className="theme-btn btn-two"><span>Start Trading</span></Link>
+                              <Link href="https://myicttrade.com/m/join/index-3" className="theme-btn btn-two"><span>Start Trading</span> </Link>
+
                             </div>
                         </div>
                     </div>
